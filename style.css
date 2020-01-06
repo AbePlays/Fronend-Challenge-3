@@ -54,47 +54,21 @@ footer {
 
 /* RIGHT DIV */
 
-.right a {
-  color: hsl(0, 100%, 74%);
-  text-decoration: none;
-}
-
-.right h3 {
-  margin: 150px 120px 30px 120px;
-  background-color: hsl(248, 32%, 49%);
-  color: white;
-  padding: 15px 0;
-  box-shadow: 0 5px 5px hsl(249, 10%, 26%);
-  font-size: 16px;
-}
-
-.right {
-  text-align: center;
-  width: 50%;
-  float: right;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
-
-.enter p {
-  color: hsl(246, 25%, 77%);
-  font-size: 12px;
-  padding-bottom: 60px;
-}
-
-.enter input {
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  width: 80%;
-  padding: 10px 0 10px 40px;
-  font-size: 16px;
+form {
+  padding: 40px 0 0 0;
 }
 
 input::placeholder {
   color: hsl(249, 3%, 47%);
   font-family: "Poppins", sans-serif;
   line-height: 1;
+}
+
+.enter {
+  background-color: #fff;
+  margin: 0 120px;
+  border-radius: 16px;
+  box-shadow: 0 5px 5px hsl(249, 10%, 26%);
 }
 
 .enter button {
@@ -109,13 +83,39 @@ input::placeholder {
   box-shadow: 0 2px 2px hsl(249, 10%, 26%);
 }
 
-.enter {
-  background-color: #fff;
-  margin: 0 120px;
-  border-radius: 16px;
-  box-shadow: 0 5px 5px hsl(249, 10%, 26%);
+.enter input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 80%;
+  padding: 10px 0 10px 40px;
+  font-size: 16px;
 }
 
-form {
-  padding: 40px 0 0 0;
+.enter p {
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+  padding-bottom: 60px;
+}
+
+.right {
+  text-align: center;
+  width: 50%;
+  float: right;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.right a {
+  color: hsl(0, 100%, 74%);
+  text-decoration: none;
+}
+
+.right h3 {
+  margin: 150px 120px 30px 120px;
+  background-color: hsl(248, 32%, 49%);
+  color: white;
+  padding: 15px 0;
+  box-shadow: 0 5px 5px hsl(249, 10%, 26%);
+  font-size: 16px;
 }
