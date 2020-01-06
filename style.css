@@ -28,6 +28,7 @@ footer {
 .container {
   color: white;
   overflow: auto;
+  margin-bottom: 300px;
 }
 
 /* LEFT DIV */
