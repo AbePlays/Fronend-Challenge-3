@@ -120,7 +120,15 @@ input::placeholder {
   font-size: 16px;
 }
 
+/* MEDIA BREAK POINT */
+
 @media (max-width: 1220px) {
+  footer {
+    position: static;
+    width: 100%;
+  }
+
+  /* LEFT DIV */
   .left {
     float: none;
     margin: 100px auto 0;
@@ -134,6 +142,7 @@ input::placeholder {
     line-height: 1;
     text-align: center;
   }
+
   .left p {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -141,7 +150,83 @@ input::placeholder {
     margin: 0 auto;
     text-align: center;
   }
+
+  /* RIGHT DIV */
+
+  form {
+    padding: 40px 0 0 0;
+  }
+
+  input::placeholder {
+    color: hsl(249, 3%, 47%);
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+  }
+
+  .enter {
+    background-color: #fff;
+    margin: 50px 20px 0;
+    border-radius: 16px;
+    box-shadow: 0 5px 5px hsl(249, 10%, 26%);
+  }
+
+  .enter button {
+    background-color: hsl(154, 59%, 51%);
+    width: 90%;
+    padding: 10px 0;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 2px 2px hsl(249, 10%, 26%);
+  }
+
+  .enter input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 20px;
+    font-size: 16px;
+  }
+
+  .enter p {
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+    padding: 0 30px 60px;
+  }
+
   .right {
     float: none;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+  }
+
+  .right a {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+  }
+
+  .right h3 {
+    margin: 50px auto 0;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding: 15px 10px;
+    box-shadow: 0 5px 5px hsl(249, 10%, 26%);
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 740px) {
+  .enter input {
+    font-size: 10px;
+  }
+  .right {
+    width: 70%;
+  }
+  .right h3 {
+    width: 80%;
   }
 }
