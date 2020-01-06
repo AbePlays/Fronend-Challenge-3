@@ -11,3 +11,28 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* LEFT DIV */
+
+.left {
+  margin: 300px 0;
+  width: 50%;
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+.left h1 {
+  padding: 0 50px;
+}
+
+.left p {
+  padding-left: 130px;
+  padding-right: 60px;
+  text-align: left;
+}
+
+/* RIGHT DIV */
+
+.right {
+}
