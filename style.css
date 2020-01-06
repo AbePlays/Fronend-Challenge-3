@@ -9,8 +9,7 @@ body {
 /* FOOTER */
 
 footer {
-  position: absolute;
-  bottom: 0;
+  margin-top: 150px;
   width: 100%;
 }
 
@@ -28,7 +27,6 @@ footer {
 .container {
   color: white;
   overflow: auto;
-  margin-bottom: 300px;
 }
 
 /* LEFT DIV */
