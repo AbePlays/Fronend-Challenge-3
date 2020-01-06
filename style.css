@@ -12,10 +12,14 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+.container {
+  overflow: auto;
+}
+
 /* LEFT DIV */
 
 .left {
-  margin: 300px 0;
+  margin: 300px 0 0 0;
   width: 50%;
   position: relative;
   float: left;
@@ -34,5 +38,37 @@ body {
 
 /* RIGHT DIV */
 
+.right h3 {
+  margin: 150px 120px 30px 120px;
+  background-color: blue;
+  color: white;
+  padding: 10px 0;
+}
+
 .right {
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+
+.right p {
+}
+
+.enter {
+}
+
+.enter input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 60%;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.enter button {
+  background-color: green;
+  width: 60%;
+  padding: 10px 0;
+  color: white;
 }
