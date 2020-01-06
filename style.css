@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-image: url("./images/bg-intro-desktop.png");
   background-color: hsl(0, 100%, 74%);
-  height: 100vh;
+  height: 100%;
 }
 
 /* FOOTER */
